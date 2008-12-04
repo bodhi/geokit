@@ -3,7 +3,7 @@ require 'rexml/document'
 require 'yaml'
 require 'timeout'
 require 'logger'
-require 'CGI'
+require 'cgi'
 
 module Geokit
   module Inflector
