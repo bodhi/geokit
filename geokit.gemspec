@@ -9,11 +9,11 @@ Gem::Specification.new do |s|
   s.date = %q{2008-11-30}
   s.description = %q{FIX (describe your package)}
   s.email = ["andre@earthcode.com / bill_eisenhauer@yahoo.com"]
-  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
-  s.files = ["History.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/geocoders.rb", "lib/geokit.rb", "lib/mappable.rb", "test/test_base_geocoder.rb", "test/test_bounds.rb", "test/test_ca_geocoder.rb", "test/test_geoloc.rb", "test/test_google_geocoder.rb", "test/test_latlng.rb", "test/test_multi_geocoder.rb", "test/test_us_geocoder.rb", "test/test_yahoo_geocoder.rb"]
+  s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.markdown"]
+  s.files = ["History.txt", "Manifest.txt", "README.markdown", "Rakefile", "lib/geocoders.rb", "lib/geokit.rb", "lib/mappable.rb", "test/test_base_geocoder.rb", "test/test_bounds.rb", "test/test_ca_geocoder.rb", "test/test_geoloc.rb", "test/test_google_geocoder.rb", "test/test_latlng.rb", "test/test_multi_geocoder.rb", "test/test_us_geocoder.rb", "test/test_yahoo_geocoder.rb"]
   s.has_rdoc = true
   s.homepage = %q{FIX (url)}
-  s.rdoc_options = ["--main", "README.txt"]
+  s.rdoc_options = ["--main", "README.markdown"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{geokit}
   s.rubygems_version = %q{1.3.1}
